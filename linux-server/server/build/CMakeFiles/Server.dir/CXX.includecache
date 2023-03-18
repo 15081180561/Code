@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/C++Files/server/Manager.h
+mysql/mysql.h
+-
+iostream
+-
+string.h
+-
+fstream
+-
+sstream
+-
+cassert
+-
+vector
+-
+
+/C++Files/server/main.cpp
+iostream
+-
+Manager.h
+/C++Files/server/Manager.h
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8.0)
+project(Server)
+add_definitions(-std=c++11)
+include(FindProtobuf)
+set(CMAKE_CXX_FLAGS "-pthread")
+add_executable(Server main.cpp Manager.cpp)
+target_link_libraries(${PROJECT_NAME} libmysqlclient.so ${PROTOBUF_LIBRARIES})

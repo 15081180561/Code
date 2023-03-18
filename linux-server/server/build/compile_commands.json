@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/C++Files/server/build",
+  "command": "/usr/bin/g++    -pthread -g   -std=c++11 -o CMakeFiles/Server.dir/main.cpp.o -c /C++Files/server/main.cpp",
+  "file": "/C++Files/server/main.cpp"
+},
+{
+  "directory": "/C++Files/server/build",
+  "command": "/usr/bin/g++    -pthread -g   -std=c++11 -o CMakeFiles/Server.dir/Manager.cpp.o -c /C++Files/server/Manager.cpp",
+  "file": "/C++Files/server/Manager.cpp"
+}
+]
